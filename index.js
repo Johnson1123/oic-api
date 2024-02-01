@@ -69,7 +69,7 @@ app.use(
 );
 
 app.get("/phone", (req, res) => {
-  res.send().json({
+  res.send({
     message: "data retrieve correctly",
     data: {
       phone: data,
