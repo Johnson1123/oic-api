@@ -1,0 +1,20 @@
+{
+  "name": "waicart",
+  "version": "1.0.0",
+  "description": "gorscery ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joseph",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "nodemon": "^3.0.3"
+  }
+}
