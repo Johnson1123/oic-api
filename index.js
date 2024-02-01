@@ -76,3 +76,7 @@ app.get("/phone", (req, res) => {
     },
   });
 });
+
+app.listen(5000, () => {
+  console.log("worked");
+});
